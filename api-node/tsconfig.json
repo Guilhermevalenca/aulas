@@ -7,12 +7,13 @@
     "strict": true,
     "skipLibCheck": true,
     "paths": {
+      "@app": ["./src/config/app.ts"],
+      "@database": ["./src/config/database.ts"],
+
       "@controllers/*": ["./src/controllers/*.ts"],
       "@routes/*": ["./src/routes/*.ts"],
       "@services/*": ["./src/services/*.ts"],
       "@config/*": ["./src/config/*.ts"],
-
-      "@app": ["./src/config/app.ts"],
-    }                         /* Skip type checking all .d.ts files. */
+    }
   }
 }
