@@ -1,0 +1,18 @@
+.header-navbar {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    right: 0; 
+}
+
+.app-page {
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
